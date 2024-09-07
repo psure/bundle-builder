@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ @import "@wordpress/dataviews/build-style/style.css";
+
+.wp-block-create-block-my-first-interactive-block input[type="text"] {
+	font-size: 1em;
+	color: inherit;
+	background: inherit;
+	border: 0;
+}
+
+.pagination {
+	display: flex;
+	justify-content: space-between;
+}
+
+#add-media-from-third-party-service {
+  background: white;
+  .topic_photos {
+    display: flex;
+    flex-wrap: wrap;
+    span {
+      background-color: rgb(166, 165, 165);
+      color: white;
+      padding: 2px 4px;
+      margin: 2px;
+    }
+  }
+}

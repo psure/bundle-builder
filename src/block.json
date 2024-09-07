@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bundle-builder-woo-block/bundle-builder-woo",
+	"version": "0.1.0",
+	"title": "Bundle Builder For WooCommerce",
+	"category": "widgets",
+	"icon": "media-interactive",
+	"description": "Bundle Builder For WooCommerce",
+	"example": {},
+	"supports": {
+		"interactivity": true
+	},
+	"attributes": {		
+		"bxgy": {
+			"type": "array",
+			"default": []
+		}		
+	},
+	"textdomain": "bundle-builder-woo-lang",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScriptModule": "file:./view.js"
+}
